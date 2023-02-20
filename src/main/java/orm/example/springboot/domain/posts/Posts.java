@@ -14,7 +14,8 @@ import javax.persistence.Id;
 @Entity // 1
 public class Posts {
     @Id // 2
-    @GeneratedValue(strategy = GenerationType.IDENTITY) // 3 private Long id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // 3
+    private Long id;
     @Column(length = 500, nullable = false) // 4
     private String title;
     @Column(columnDefinition = "TEXT", nullable = false)
@@ -27,5 +28,10 @@ public class Posts {
         this.title = title;
         this.content = content;
         this.author = author;
+    }
+
+    public void update(String title, String content) {
+        this.title = title;
+        this.content = content;
     }
 }
