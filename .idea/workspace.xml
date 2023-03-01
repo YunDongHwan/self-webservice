@@ -6,8 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="10fa9304-dc1d-49b5-94e7-3b2c26defaf2" name="변경" comment="ignore 수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/orm/example/springboot/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/orm/example/springboot/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/orm/example/springboot/domain/posts/BaseTimeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/orm/example/springboot/domain/posts/BaseTimeEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/orm/example/springboot/domain/posts/Posts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/orm/example/springboot/domain/posts/Posts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/orm/example/springboot/domain/posts/PostsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/orm/example/springboot/domain/posts/PostsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/orm/example/springboot/service/posts/PostsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/orm/example/springboot/service/posts/PostsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/orm/example/springboot/web/PostsApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/orm/example/springboot/web/PostsApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/orm/example/springboot/domain/posts/PostsRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orm/example/springboot/domain/posts/PostsRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,23 +93,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "11",
-    "project.structure.last.edited": "모듈",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Application">
+  <component name="RunManager" selected="Gradle.PostApiControllerTest.Posts_updater">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="orm.example.springboot.Application" />
       <module name="self-webservice.main" />
@@ -130,7 +137,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostApiControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="IndexControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -143,7 +150,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;orm.example.springboot.PostApiControllerTest&quot;" />
+            <option value="&quot;orm.example.springboot.IndexControllerTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -176,7 +183,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PostsRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PostsRepositoryTest.BaseTimeEntityTest_register" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -189,7 +196,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;orm.example.springboot.domain.posts.PostsRepositoryTest&quot;" />
+            <option value="&quot;orm.example.springboot.domain.posts.PostsRepositoryTest.BaseTimeEntityTest_register&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -201,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PostApiControllerTest.Posts_updater" />
+        <item itemvalue="Gradle.IndexControllerTest" />
+        <item itemvalue="Gradle.PostsRepositoryTest.BaseTimeEntityTest_register" />
         <item itemvalue="애플리케이션.Application" />
         <item itemvalue="애플리케이션.Main" />
-        <item itemvalue="Gradle.PostApiControllerTest.Posts_updater" />
-        <item itemvalue="Gradle.PostApiControllerTest" />
-        <item itemvalue="Gradle.PostsRepositoryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +255,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/orm/example/springboot/domain/posts/PostsRepositoryTest.java</url>
-          <line>12</line>
+          <line>14</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

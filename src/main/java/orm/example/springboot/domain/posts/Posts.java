@@ -12,7 +12,7 @@ import javax.persistence.Id;
 @Getter // 6
 @NoArgsConstructor // 5
 @Entity // 1
-public class Posts {
+public class Posts extends BaseTimeEntity {
     @Id // 2
     @GeneratedValue(strategy = GenerationType.IDENTITY) // 3
     private Long id;
